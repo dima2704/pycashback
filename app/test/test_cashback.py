@@ -1,7 +1,7 @@
-from app.cashback import cashback
-
-
-def test_cashback_under_limit():
-    result = cashback(1000)
-
-    assert 50 == result
+def cashback(amount):
+    percent = 0.05
+    limit = 3_000
+    result = amount * percent
+    if result > limit
+        return limit
+    return result
